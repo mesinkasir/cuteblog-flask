@@ -1,0 +1,14 @@
+<section class="row mb-5 p-3">
+ {% for post in posts %}
+<article class="col-md-4 p-3">   
+<a href="{{ url_for('post', post_id=post.id) }}" class="card p-1">
+<img class="img-fluid card" alt="{{ post.title }}" src="{{ post.cover }}">
+<div class="card-content p-3">
+<h3>{{ post.title }} <span class="cute">✏️</span></h3>
+<p class="date"><small>👧&nbsp;{{ post.author }}&nbsp;⏰ &nbsp;{{ post.date_posted.strftime('%B %d, %Y') }}</small></p>
+<p>📝 {{ post.subtitle }}</p>
+</div>
+</a>
+</article>
+{% endfor %}
+</section>

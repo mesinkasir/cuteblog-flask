@@ -1,0 +1,47 @@
+<div class="row mb-5 mt-1 p-3">
+<article class="card p-1">
+<h1 class="text-center my-4">Write Post ✏️</h1>
+<form class="p-3 p-md-5" name="addForm" id="addForm" method="POST" action="{{ url_for('cutepost') }}" novalidate>
+<div class="control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Cover</label>
+<input type="text" class="form-control" placeholder="insert URL Cover image." name="cover" id="cover" required data-validation-required-message="insert URL Cover image.">
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="control-group">
+<div class="form-group floating-label-form-group controls">
+<label>Title</label>
+<input type="text" class="form-control" placeholder="Blog page title here." name="title" id="title" required data-validation-required-message="Blog page title here.">
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="control-group">
+<div class="form-group floating-label-form-group controls">
+<label>Description</label>
+<input type="text" class="form-control" placeholder="Description article in here." name="subtitle" id="subtitle" required data-validation-required-message="Description article in here.">
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Author</label>
+<input type="text" class="form-control" placeholder="Author" name="author" id="author" required data-validation-required-message="Author.">
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="control-group">
+<div class="form-group floating-label-form-group controls">
+<label>Blog Content</label>
+<textarea rows="5" class="form-control" placeholder="Lets get started to write content here.." name="content" id="content" required data-validation-required-message="Lets get started to write content here.."></textarea>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+ <br>
+ <div id="success"></div>
+ <div class="form-group">
+ <button type="submit" class="btn btn-dark btn-lg float-end  col-md-4 col-12" id="sendMessageButton">Publish Post</button>
+ </div>
+ </form>
+</article>
+</div>

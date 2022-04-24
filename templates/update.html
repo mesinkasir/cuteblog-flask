@@ -1,0 +1,26 @@
+{% include "headhome.html" %}   
+{% include "nav.html" %}
+<div class="row mb-5 mt-1 p-3">
+<article class="card p-3 p-md-5">
+{% block content %}
+<h1 class="my-4">💻 Update Data</h1>
+<form action="/update/{{ post.id }}" method="POST">
+  Cover
+ <input type="text" class="form-control" id="cover" name="cover" value="{{ post.cover }}">
+Title
+<input type="text" class="form-control" name="title" value="{{ post.title }}">
+Description
+<input type="text" class="form-control" id="subtitle" name="subtitle" value="{{ post.subtitle }}">
+Author
+<input type="text" class="form-control" id="author" name="author" value="{{ post.author }}">
+ Content        
+ <textarea rows="5" type="text" class="form-control"id="content"  name="content">{{ post.content }}</textarea>
+ <div class="mt-3">
+ <button type="submit" class="btn btn-dark text-white float-end btn-lg col-md-4 col-12">Update</button>
+ </div>
+  </form>
+</div>
+{% endblock content %}
+</article>
+</div>
+{% include "footer.html" %}

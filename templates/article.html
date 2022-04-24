@@ -1,0 +1,15 @@
+<div class="row mb-5 mt-1 p-3">
+<article class="card p-1">
+<header>
+<img class="img-fluid" width="100%" alt="{{ post.title }}" src="{{ post.cover }}"/>
+</header>
+<main class="p-3 p-md-5">
+<h1><strong><a href=""></strong>{{ post.title }}</a> <span class="cute">✏️</span></strong></h1>
+<span></span>
+<h3>{{ post.subtitle }}</h3>
+<p class="date">👧&nbsp;{{ post.author }} ⏰ &nbsp;{{ post.date_posted.strftime('%B %d, %Y') }}</p>
+<p class="dotted"></p>
+<p>{{ post.content|safe }}</p>
+</main>
+</article>
+</div>
