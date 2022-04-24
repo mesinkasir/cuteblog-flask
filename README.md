@@ -1,4 +1,4 @@
-# Cuteblog Phyton Flask
+# Cuteblog Phyton Flask SqlAlchemy
 
 A new generation for phyton flask blog with cute blog.
 including sqlalchemy for update edit and delete content
