@@ -9,6 +9,8 @@ Installation Documentation :
 Test drive a demo : 
 [https://cuteflask.axcora.my.id →](https://cuteflask.axcora.my.id/)
 
+Play video : [https://youtu.be/V0hCp4SMSfw →](https://youtu.be/V0hCp4SMSfw)
+
 ![cuteblog for phyton flask blog ](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWssVzJHcSm7F22gHjeDLIFLDJlTGc8JoXm8TQLzche0hS7Zg5aoPaHzZkwVDnum0APAHOr1R6PGVSRRY7kWg_2h0XQy1e_iKgMGhFKBQEdy2_aAzPk02bqELkbKBMLqPCvIE6sMsBh2ENji-PeftctMhzs-UIc6t7xe7dKQVUqcbIw47ia2HYsXeaBw/s1920/phyton%20flask%20blog%20seo%20free%20download%20source%20code%20gratis%20(1).jpg)
 
 Installation Documentation : 
@@ -52,3 +54,5 @@ Installation Documentation :
 
 Test drive a demo : 
 [https://cuteflask.axcora.my.id →](https://cuteflask.axcora.my.id/)
+
+Play video : [https://youtu.be/V0hCp4SMSfw →](https://youtu.be/V0hCp4SMSfw)
